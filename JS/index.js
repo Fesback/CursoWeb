@@ -8,6 +8,8 @@ document.getElementById('whatsappform').onsubmit = function(e){
     var message = document.getElementById('message').value;
 
     console.log(name);
+    console.log(lastname);
+    console.log(email);
     console.log(message);
 
     var phonenumber = '51920023979';
